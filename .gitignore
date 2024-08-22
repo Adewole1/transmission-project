@@ -1,0 +1,8 @@
+.mypy_cache/
+.venv/
+
+.idea/
+.vscode/
+__pycache__/
+build/
+dist/

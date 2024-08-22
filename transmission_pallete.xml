@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette>
+ <active>
+  <colorrole role="Button">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="ButtonText">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="Link">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="LinkVisited">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>65</red>
+     <green>65</green>
+     <blue>218</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="ToolTipBase">
+   <brush brushstyle="SolidPattern">
+    <color alpha="10">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="Accent">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+ </active>
+ <inactive>
+  <colorrole role="Button">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="ButtonText">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>248</red>
+     <green>248</green>
+     <blue>248</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="HighlightedText">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>243</red>
+     <green>243</green>
+     <blue>243</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="Link">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>70</red>
+     <green>70</green>
+     <blue>236</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="ToolTipBase">
+   <brush brushstyle="SolidPattern">
+    <color alpha="10">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="Accent">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>76</red>
+     <green>76</green>
+     <blue>255</blue>
+    </color>
+   </brush>
+  </colorrole>
+ </inactive>
+ <disabled>
+  <colorrole role="Button">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>227</red>
+     <green>227</green>
+     <blue>227</blue>
+    </color>
+   </brush>
+  </colorrole>
+  <colorrole role="ButtonText">
+   <brush brushstyle="SolidPattern">
+    <color alpha="255">
+     <red>68</red>
+     <green>68</green>
+     <blue>68</blue>
+    </color>
+   </brush>
+  </colorrole>
+ </disabled>
+</palette>
