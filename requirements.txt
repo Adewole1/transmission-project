@@ -11,6 +11,10 @@ Pygments==2.18.0
 pyinstaller==6.10.0
 pyinstaller-hooks-contrib==2024.8
 pypiwin32==223
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.2
+PyQt5_sip==12.15.0
+pyqtdeploy==3.3.0
 PySide6==6.7.2
 PySide6_Addons==6.7.2
 PySide6_Essentials==6.7.2
@@ -18,5 +22,6 @@ pywin32==306
 pywin32-ctypes==0.2.3
 requests==2.32.3
 shiboken6==6.7.2
+toml==0.10.2
 urllib3==2.2.2
 zipp==3.20.0

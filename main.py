@@ -76,7 +76,7 @@ class BeltWindow(QMainWindow, BeltScreen):
         self.chainClearAll.clicked.connect(self.chain_clear_all)
 
         # Tab Widgets
-        self.transmissions.currentChanged.connect(self.tabChanged)
+        # self.transmissions.currentChanged.connect(self.tabChanged)
 
     def next_tab(self):
         self.transmissions.setCurrentIndex(1)
