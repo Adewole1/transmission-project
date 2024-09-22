@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>980</width>
-    <height>1143</height>
+    <width>1200</width>
+    <height>1283</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,7 +18,7 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>980</width>
+    <width>1200</width>
     <height>16777215</height>
    </size>
   </property>
@@ -178,7 +178,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
-    <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
@@ -199,7 +199,7 @@
     <item>
      <widget class="QTabWidget" name="transmissions">
       <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
@@ -231,8 +231,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>936</width>
-             <height>1022</height>
+             <width>1156</width>
+             <height>1162</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -284,804 +284,2131 @@ li.checked::marker { content: &quot;\2612&quot;; }
              </widget>
             </item>
             <item>
-             <widget class="QGroupBox" name="groupBox">
-              <property name="font">
-               <font>
-                <family>Merriweather</family>
-                <pointsize>12</pointsize>
-                <fontweight>Medium</fontweight>
-               </font>
+             <widget class="QWidget" name="I0" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
               </property>
-              <property name="title">
-               <string>Inputs</string>
-              </property>
-              <property name="flat">
-               <bool>false</bool>
-              </property>
-              <property name="checkable">
-               <bool>false</bool>
-              </property>
-              <layout class="QGridLayout" name="gridLayout">
-               <item row="9" column="1">
-                <widget class="QLabel" name="label_16">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>5</number>
-                 </property>
-                 <property name="whatsThis">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="text">
-                  <string>Takeup allowance</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="1">
-                <widget class="QLabel" name="label_6">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Power on drive shaft (&lt;var&gt;P&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="1" rowspan="2">
-                <widget class="QLineEdit" name="centerInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <item>
+                <widget class="QGroupBox" name="Inputs">
                  <property name="font">
                   <font>
                    <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter distance between pulleys in mm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="9" column="0">
-                <widget class="QLabel" name="label_17">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Belt Weight (W)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="5" column="0">
-                <widget class="QLabel" name="label_10">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Standard Belt Length (&lt;var&gt;L&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="1">
-                <widget class="QLabel" name="label_7">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Approx. Center distance (&lt;var&gt;C&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="8" column="0">
-                <widget class="QLineEdit" name="contactFactorInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter arc of contact correctional factor</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="9" column="2" colspan="2">
-                <widget class="QLabel" name="label_18">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>5</number>
-                 </property>
-                 <property name="whatsThis">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="text">
-                  <string>*Check if belt is crossed</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="1">
-                <widget class="QLineEdit" name="powerInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter power on drive shaft in kW</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="6" column="2" colspan="2">
-                <widget class="QLineEdit" name="addPowerInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter additional power for speed ratio in kW</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="6" column="1">
-                <widget class="QLineEdit" name="ratedPowerInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter rated power in kW</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="7" column="1">
-                <widget class="QLabel" name="label_14">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Power Correctional Factor (&lt;var&gt;F&lt;sub&gt;L&lt;/sub&gt;&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="6" column="0">
-                <widget class="QLineEdit" name="beltLengthInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter belt length from table in mm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="7" column="2" colspan="2">
-                <widget class="QLabel" name="label_13">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>5</number>
-                 </property>
-                 <property name="whatsThis">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="text">
-                  <string>Installation allowance</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="3" rowspan="2">
-                <widget class="QRadioButton" name="smallPulleySelect">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Enter pitch diameter in field to the left</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>1000</number>
-                 </property>
-                 <property name="text">
-                  <string>Small pulley (d)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="10" column="1">
-                <widget class="QLineEdit" name="takeAllowanceInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter allowance in mm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="2" colspan="2">
-                <widget class="QLineEdit" name="factorInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter service factor</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="0">
-                <widget class="QLabel" name="label_5">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>No of rev. on centrifugal pump (&lt;var&gt;N&lt;sub&gt;2&lt;/sub&gt;&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="7" column="0">
-                <widget class="QLabel" name="label_15">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Arc of Contact Correctional Factor (&lt;var&gt;F&lt;sub&gt;A&lt;/sub&gt;&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="2" rowspan="2">
-                <widget class="QLineEdit" name="pitchInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter pulley pitch</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="2">
-                <widget class="QLabel" name="label_9">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>1000</number>
-                 </property>
-                 <property name="whatsThis">
-                  <string>Also select the pitch from the selection to the right</string>
-                 </property>
-                 <property name="text">
-                  <string>Pitch Diameter</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="0" rowspan="2">
-                <widget class="QLineEdit" name="rev2Input">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter pump revolutions in rpm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="8" column="1">
-                <widget class="QLineEdit" name="powerFactorInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter power correctional factor</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="0">
-                <widget class="QLabel" name="label_4">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>No of rev. on drive shaft (&lt;var&gt;N&lt;sub&gt;1&lt;/sub&gt;&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="5" column="1">
-                <widget class="QLabel" name="label_11">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Rated Power</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="10" column="0">
-                <widget class="QLineEdit" name="beltWeightInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter belt weight</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QLineEdit" name="rev1Input">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="frame">
-                  <bool>true</bool>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter drive shaft revolutions in rpm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="10" column="2">
-                <widget class="QCheckBox" name="crossBelt">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
                    <pointsize>12</pointsize>
                    <fontweight>Medium</fontweight>
                   </font>
                  </property>
-                 <property name="toolTip">
-                  <string>Check this box if belt is cross type</string>
+                 <property name="title">
+                  <string>Inputs</string>
                  </property>
-                 <property name="toolTipDuration">
-                  <number>1000</number>
+                 <property name="flat">
+                  <bool>false</bool>
                  </property>
-                 <property name="whatsThis">
-                  <string>Check this box if belt is cross type</string>
+                 <property name="checkable">
+                  <bool>false</bool>
                  </property>
-                 <property name="text">
-                  <string>Cross Belt</string>
-                 </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_6">
+                  <item>
+                   <widget class="QWidget" name="widget_25" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_28">
+                     <item>
+                      <widget class="QWidget" name="widget_24" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_8">
+                        <item>
+                         <widget class="QLabel" name="label_4">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>No of rev. on drive shaft (&lt;var&gt;N&lt;sub&gt;1&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="rev1Input">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter drive shaft revolutions in rpm</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_26" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_29">
+                        <item>
+                         <widget class="QLabel" name="label_5">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>No of rev. on centrifugal pump (&lt;var&gt;N&lt;sub&gt;2&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="rev2Input">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter pump revolutions in rpm</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_27" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_30">
+                        <item>
+                         <widget class="QLabel" name="label_10">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Standard Belt Length (&lt;var&gt;L&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="beltLengthInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter belt length from table in mm</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_28" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_31">
+                        <item>
+                         <widget class="QLabel" name="label_14">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Power Correctional Factor (&lt;var&gt;F&lt;sub&gt;L&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="powerFactorInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter power correctional factor</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_29" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_32">
+                        <item>
+                         <widget class="QLabel" name="label_15">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Arc of Contact Correctional Factor (&lt;var&gt;F&lt;sub&gt;A&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="contactFactorInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter arc of contact correctional factor</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_30" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_33">
+                        <item>
+                         <widget class="QLabel" name="label_8">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Service Factor (&lt;var&gt;K&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="factorInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter service factor</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_31" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_34">
+                        <item>
+                         <widget class="QLabel" name="label_17">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Belt Weight (W)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="beltWeightInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter belt weight</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_32" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_36">
+                     <item>
+                      <widget class="QWidget" name="widget_33" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_35">
+                        <item>
+                         <widget class="QLabel" name="label_6">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Power on drive shaft (&lt;var&gt;P&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="powerInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter power on drive shaft in kW</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_34" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_37">
+                        <item>
+                         <widget class="QLabel" name="label_7">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Approx. Center distance (&lt;var&gt;C&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="centerInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter distance between pulleys in mm</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_36" native="true">
+                       <layout class="QHBoxLayout" name="horizontalLayout_4">
+                        <property name="spacing">
+                         <number>0</number>
+                        </property>
+                        <property name="leftMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="topMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="rightMargin">
+                         <number>0</number>
+                        </property>
+                        <property name="bottomMargin">
+                         <number>0</number>
+                        </property>
+                        <item>
+                         <widget class="QWidget" name="widget_35" native="true">
+                          <layout class="QVBoxLayout" name="verticalLayout_38">
+                           <item>
+                            <widget class="QLabel" name="label_9">
+                             <property name="font">
+                              <font>
+                               <family>Syne</family>
+                               <pointsize>12</pointsize>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="toolTipDuration">
+                              <number>1000</number>
+                             </property>
+                             <property name="whatsThis">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="text">
+                              <string>Pitch Diameter</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="pitchInput">
+                             <property name="palette">
+                              <palette>
+                               <active/>
+                               <inactive/>
+                               <disabled/>
+                              </palette>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Merriweather</family>
+                               <pointsize>10</pointsize>
+                               <italic>false</italic>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                             </property>
+                             <property name="inputMethodHints">
+                              <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Enter pulley pitch</string>
+                             </property>
+                             <property name="clearButtonEnabled">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QWidget" name="widget_37" native="true">
+                          <layout class="QVBoxLayout" name="verticalLayout_39">
+                           <item>
+                            <widget class="QRadioButton" name="smallPulleySelect">
+                             <property name="palette">
+                              <palette>
+                               <active/>
+                               <inactive/>
+                               <disabled/>
+                              </palette>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Syne</family>
+                               <pointsize>12</pointsize>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Enter pitch diameter in field to the left</string>
+                             </property>
+                             <property name="toolTipDuration">
+                              <number>1000</number>
+                             </property>
+                             <property name="text">
+                              <string>Small pulley (d)</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QRadioButton" name="bigPulleySelect">
+                             <property name="palette">
+                              <palette>
+                               <active/>
+                               <inactive/>
+                               <disabled/>
+                              </palette>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Syne</family>
+                               <pointsize>12</pointsize>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Enter pitch diameter in field to the left</string>
+                             </property>
+                             <property name="toolTipDuration">
+                              <number>1000</number>
+                             </property>
+                             <property name="text">
+                              <string>Big pulley (D)</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="allowance" native="true">
+                       <layout class="QHBoxLayout" name="horizontalLayout_5">
+                        <item>
+                         <widget class="QWidget" name="installation" native="true">
+                          <layout class="QVBoxLayout" name="verticalLayout_40">
+                           <item>
+                            <widget class="QLabel" name="label_13">
+                             <property name="font">
+                              <font>
+                               <family>Syne</family>
+                               <pointsize>12</pointsize>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="toolTipDuration">
+                              <number>5</number>
+                             </property>
+                             <property name="whatsThis">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="text">
+                              <string>Installation allowance</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="instAllowanceInput">
+                             <property name="palette">
+                              <palette>
+                               <active/>
+                               <inactive/>
+                               <disabled/>
+                              </palette>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Merriweather</family>
+                               <pointsize>10</pointsize>
+                               <italic>false</italic>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                             </property>
+                             <property name="inputMethodHints">
+                              <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Enter allowance in mm</string>
+                             </property>
+                             <property name="clearButtonEnabled">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QWidget" name="takeup" native="true">
+                          <layout class="QVBoxLayout" name="verticalLayout_41">
+                           <item>
+                            <widget class="QLabel" name="label_16">
+                             <property name="font">
+                              <font>
+                               <family>Syne</family>
+                               <pointsize>12</pointsize>
+                              </font>
+                             </property>
+                             <property name="toolTip">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="toolTipDuration">
+                              <number>5</number>
+                             </property>
+                             <property name="whatsThis">
+                              <string>Also select the pitch from the selection to the right</string>
+                             </property>
+                             <property name="text">
+                              <string>Takeup allowance</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QLineEdit" name="takeAllowanceInput">
+                             <property name="palette">
+                              <palette>
+                               <active/>
+                               <inactive/>
+                               <disabled/>
+                              </palette>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Merriweather</family>
+                               <pointsize>10</pointsize>
+                               <italic>false</italic>
+                               <bold>true</bold>
+                              </font>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                             </property>
+                             <property name="inputMethodHints">
+                              <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                             </property>
+                             <property name="text">
+                              <string/>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Enter allowance in mm</string>
+                             </property>
+                             <property name="clearButtonEnabled">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="rated_power" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_43">
+                        <item>
+                         <widget class="QLabel" name="label_11">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Rated Power</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="ratedPowerInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter rated power in kW</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="addPower" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_42">
+                        <item>
+                         <widget class="QLabel" name="label_12">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Additional Power</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="addPowerInput">
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="inputMethodHints">
+                           <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="placeholderText">
+                           <string>Enter additional power for speed ratio in kW</string>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>true</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="cross_belt" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_44">
+                        <item>
+                         <widget class="QLabel" name="label_18">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="toolTip">
+                           <string>Also select the pitch from the selection to the right</string>
+                          </property>
+                          <property name="toolTipDuration">
+                           <number>5</number>
+                          </property>
+                          <property name="whatsThis">
+                           <string>Also select the pitch from the selection to the right</string>
+                          </property>
+                          <property name="text">
+                           <string>*Check if belt is crossed</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QCheckBox" name="crossBelt">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                            <fontweight>Medium</fontweight>
+                           </font>
+                          </property>
+                          <property name="toolTip">
+                           <string>Check this box if belt is cross type</string>
+                          </property>
+                          <property name="toolTipDuration">
+                           <number>1000</number>
+                          </property>
+                          <property name="whatsThis">
+                           <string>Check this box if belt is cross type</string>
+                          </property>
+                          <property name="text">
+                           <string>Cross Belt</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
                 </widget>
                </item>
-               <item row="4" column="3">
-                <widget class="QRadioButton" name="bigPulleySelect">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="toolTip">
-                  <string>Enter pitch diameter in field to the left</string>
-                 </property>
-                 <property name="toolTipDuration">
-                  <number>1000</number>
-                 </property>
-                 <property name="text">
-                  <string>Big pulley (D)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="2">
-                <widget class="QLabel" name="label_8">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
-                   <pointsize>12</pointsize>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Service Factor (&lt;var&gt;K&lt;/var&gt;)</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="8" column="2" colspan="2">
-                <widget class="QLineEdit" name="instAllowanceInput">
-                 <property name="palette">
-                  <palette>
-                   <active/>
-                   <inactive/>
-                   <disabled/>
-                  </palette>
-                 </property>
+               <item>
+                <widget class="QGroupBox" name="Outputs">
                  <property name="font">
                   <font>
                    <family>Merriweather</family>
-                   <pointsize>10</pointsize>
-                   <italic>false</italic>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
-                 </property>
-                 <property name="inputMethodHints">
-                  <set>Qt::InputMethodHint::ImhDigitsOnly|Qt::InputMethodHint::ImhPreferNumbers</set>
-                 </property>
-                 <property name="text">
-                  <string/>
-                 </property>
-                 <property name="placeholderText">
-                  <string>Enter allowance in mm</string>
-                 </property>
-                 <property name="clearButtonEnabled">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="5" column="2" colspan="2">
-                <widget class="QLabel" name="label_12">
-                 <property name="font">
-                  <font>
-                   <family>Syne</family>
                    <pointsize>12</pointsize>
+                   <fontweight>Medium</fontweight>
                   </font>
                  </property>
-                 <property name="text">
-                  <string>Additional Power</string>
+                 <property name="title">
+                  <string>Calculated Outputs</string>
                  </property>
+                 <layout class="QHBoxLayout" name="horizontalLayout_3">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QWidget" name="widget_13" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_10">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QWidget" name="widget_6" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_9">
+                        <item>
+                         <widget class="QLabel" name="label_37">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Speed Ratio (&lt;var&gt;S&lt;sub&gt;r&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="speedRatioOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_7" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_11">
+                        <item>
+                         <widget class="QLabel" name="label_38">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Design Power (&lt;var&gt;P&lt;sub&gt;D&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="designPowerOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_8" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_12">
+                        <item>
+                         <widget class="QLabel" name="label_42">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Other Pulley Diameter</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="pulleyDiameterOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_9" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_13">
+                        <item>
+                         <widget class="QLabel" name="label_43">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Belt Length (&lt;var&gt;L&lt;sub&gt;P&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="beltLengthOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_10" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_14">
+                        <property name="sizeConstraint">
+                         <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+                        </property>
+                        <item>
+                         <widget class="QLabel" name="label_44">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Power Rating (&lt;var&gt;P&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="powerRatingOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_11" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_15">
+                        <item>
+                         <widget class="QLabel" name="label_45">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Number of Belts (&lt;var&gt;N&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="beltNumberOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_22" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_26">
+                        <item>
+                         <widget class="QLabel" name="label_53">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Belt Speed (&lt;var&gt;V&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="beltSpeedOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_12" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_16">
+                        <item>
+                         <widget class="QLabel" name="label_46">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Exact Center Distance (&lt;var&gt;C&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="exactCenterOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_38" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_48">
+                        <item>
+                         <widget class="QLabel" name="label_59">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Effective Tension (&lt;var&gt;T&lt;sub&gt;e&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="effectiveTensionOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_14" native="true">
+                    <layout class="QVBoxLayout" name="verticalLayout_17">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QWidget" name="widget_15" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_18">
+                        <property name="spacing">
+                         <number>6</number>
+                        </property>
+                        <item>
+                         <widget class="QLabel" name="label_39">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Torque (&lt;var&gt;T&lt;sub&gt;q&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="torqueOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_16" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_19">
+                        <item>
+                         <widget class="QLabel" name="label_40">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Tight Side Tension(&lt;var&gt;T&lt;sub&gt;t&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="tightOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_17" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_20">
+                        <item>
+                         <widget class="QLabel" name="label_41">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Slack Side Tension(&lt;var&gt;T&lt;sub&gt;s&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="slackOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_18" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_21">
+                        <item>
+                         <widget class="QLabel" name="label_48">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Tension Ratio (&lt;var&gt;T&lt;sub&gt;r&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="tensionRatioOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_19" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_22">
+                        <item>
+                         <widget class="QLabel" name="label_49">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Minimum Static Tension (&lt;var&gt;T&lt;sub&gt;m&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="staticTensionOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_20" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_23">
+                        <item>
+                         <widget class="QLabel" name="label_50">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Belt contact angle (&lt;var&gt;β&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="contactAngleOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_23" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_27">
+                        <item>
+                         <widget class="QLabel" name="label_54">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Static Shaft Load (&lt;var&gt;L&lt;sub&gt;s&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="shaftLoadOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_21" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_24">
+                        <item>
+                         <widget class="QLabel" name="label_51">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Angle of Wrap (&lt;var&gt;a&lt;sub&gt;1&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="wrapAngleOutput">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QWidget" name="widget_39" native="true">
+                       <layout class="QVBoxLayout" name="verticalLayout_49">
+                        <item>
+                         <widget class="QLabel" name="label_60">
+                          <property name="font">
+                           <font>
+                            <family>Syne</family>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Angle of Wrap (&lt;var&gt;a&lt;sub&gt;2&lt;/sub&gt;&lt;/var&gt;)</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLineEdit" name="wrapAngleOutput_2">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>12</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="palette">
+                           <palette>
+                            <active/>
+                            <inactive/>
+                            <disabled/>
+                           </palette>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Merriweather</family>
+                            <pointsize>10</pointsize>
+                            <italic>false</italic>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">font: 700 10pt &quot;Merriweather&quot;;</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="frame">
+                           <bool>true</bool>
+                          </property>
+                          <property name="readOnly">
+                           <bool>true</bool>
+                          </property>
+                          <property name="placeholderText">
+                           <string/>
+                          </property>
+                          <property name="clearButtonEnabled">
+                           <bool>false</bool>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
                 </widget>
                </item>
               </layout>
@@ -1407,8 +2734,8 @@ padding: 6px 12px 6px 12px;</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>936</width>
-             <height>1022</height>
+             <width>1156</width>
+             <height>1162</height>
             </rect>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -2844,7 +4171,7 @@ padding: 6px 12px 6px 12px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>980</width>
+     <width>1200</width>
      <height>33</height>
     </rect>
    </property>
